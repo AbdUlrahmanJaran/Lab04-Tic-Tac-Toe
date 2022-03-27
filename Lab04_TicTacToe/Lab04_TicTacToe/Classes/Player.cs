@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab04_TicTacToe.Classes
 {
-    class Player
+    public class Player
     {
 		public string Name { get; set; }
 		/// <summary>
@@ -17,7 +17,9 @@ namespace Lab04_TicTacToe.Classes
 		/// </summary>
 		public bool IsTurn { get; set; }
 
-
+		/// <summary>
+		/// Ask the User to Enter a location and send it to PositionForNumber method and return desiredCoordinate
+		/// </summary>
 		public Position GetPosition(Board board)
 		{
 			Position desiredCoordinate = null;
@@ -31,7 +33,9 @@ namespace Lab04_TicTacToe.Classes
 
 		}
 
-
+		/// <summary>
+		/// return Position to reblace it.
+		/// </summary>
 		public static Position PositionForNumber(int position)
 		{
 			switch (position)
