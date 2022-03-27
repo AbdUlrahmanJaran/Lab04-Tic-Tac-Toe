@@ -1670,16 +1670,6 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
-      },
-      "Lab04_TicTacToe/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Lab04_TicTacToe.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Lab04_TicTacToe.dll": {}
-        }
       }
     }
   },
@@ -5916,16 +5906,10 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "Lab04_TicTacToe/1.0.0": {
-      "type": "project",
-      "path": "../Lab04_TicTacToe/Lab04_TicTacToe.csproj",
-      "msbuildProject": "../Lab04_TicTacToe/Lab04_TicTacToe.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Lab04_TicTacToe >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
@@ -5958,11 +5942,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "C:\\Users\\user\\Labs\\Lab04-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {
-              "projectPath": "C:\\Users\\user\\Labs\\Lab04-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
